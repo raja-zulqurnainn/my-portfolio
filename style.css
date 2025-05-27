@@ -1,0 +1,1767 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+    
+ }
+
+.header-area{
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    z-index: 5; 
+    top: 0%;
+
+}
+.logo-image{
+    width: 80px;
+    height: 80px;
+    margin-left: -58px;
+}
+.discover,.search,.qrates,.cart{
+    margin-left: 40px;
+}
+.head-btn a {
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+.login{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 40px;
+}
+.make-record{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    border: 15px solid black;
+    border-radius: 25px;
+    padding: 2px 15px;
+    font-size: small;
+}
+.head-button{
+    margin-right: 80px;
+    
+}
+.your-music-on{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+
+    
+    margin-top: 10%;
+}
+ /* a:hover{
+    background-color: #FFF804;
+    color: black;
+    box-shadow: 0 0 4px 4px ;
+    } */
+    .press-sell a:hover{
+        background-color: #81836C;
+        color: black;
+        
+    }
+    .we-do-the-rest a:hover{
+       background-color: black;
+       color: white;
+       box-shadow: 0 0 4px 4px ;
+    }
+    .join-growing-community a:hover{
+        background-color: #FFF804;
+        color: black;
+        box-shadow: 0 0 4px 4px ;
+    }
+    .first-project-footer a:hover{
+        background-color: #FFF804;
+        color: black;
+        box-shadow: 0 0 4px 4px ;
+    }
+    .last-footer a:hover{
+        background-color: #FFF804;
+        color: black;
+        box-shadow: 0 0 4px 4px ;
+    }
+    .logo-image:hover{
+        transform: rotate(360deg);
+        transition: all 0.4s;
+        
+    }
+ .section-image-one:hover{
+    width: 700px;
+    transform: rotate(0deg);
+    
+ }
+ .section-image-two:hover{
+    width: 700px;
+  
+    transform: rotate(0);
+ }
+ .section-image-three:hover{
+    width: 260px;
+    
+    transform: rotate(360deg);
+    transition: all 1s;
+ }
+ .we-do-the-rest img:hover{
+    width: 400px;
+    padding: 20px;
+    background-color: black;
+    transform: rotate(0deg);
+ }
+ .press-sell img:hover{
+    width: 400px;
+     padding: 10px;
+   background-color: #81836C;
+    transform: rotate(10deg);
+    
+ }
+ .crownfunding-site img:hover{
+    width: 400px;
+     padding: 10px;
+   background-color: black;
+    transform: rotate(10deg);
+    
+ }
+ .retail-customer img:hover{
+    width: 580px;
+    padding: 10px;
+    background-color: white;
+ }
+ .customer-support img:hover{
+    width: 580px;
+     padding: 10px;
+    background-color: black; 
+ }
+ .sql-flex img:hover{
+    width: 700px;
+    padding: 10px;
+    background-color: black;
+   }
+   .join-growing-community a:hover{
+    background-color: black;
+    color: #ffffff;
+    box-shadow: 0 0 4px 4px ;
+   }
+   .select-card-container:hover{
+    box-shadow: 10px  10px 10px  5px gray ;
+   }
+ .last-footer-image:hover{
+    width: 400px;
+ }
+ .last-section a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 4px 4px ;
+ }
+ .dollar-pic{
+    animation-name: dollar-pic;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+ }
+ @keyframes dollar-pic{
+0%{
+    width: 100px; border-radius: 0%; 
+}
+50%{
+    width: 190px; border-radius: 25%; 
+}
+100%{
+    width: 200px; border-radius: 50%; 
+}
+ }
+ .last-text i:hover{
+    width: 50px;
+    padding: 10px;
+    font-size: xx-large;
+    border-radius: 50%;
+    box-shadow: none;
+ }
+ .last-text a:hover{
+    background-color: black;
+    color: #ffffff;
+    box-shadow: none;
+ }
+.your-music-text{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.your-music-text span{
+    width: 450px;
+    font-size: 65px;
+    font-weight: 600;
+    display: block;
+}
+.span-changing{
+    width: 450px;
+    font-size: 65px;
+    font-weight: 600;
+    display: block;
+    margin-top: 25px;
+}
+.why-qrates{
+    background-color: #ffff;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+}
+.your-music-on p{
+    width: 450px;
+    font-size: 25px;
+    margin-top: 29px;
+}
+.section-image-one{
+    border: 5px solid black;
+    width: 690px;
+    height: 900px;
+    transform: rotate(4deg);
+}
+.section-image-two{
+    border: 5px solid black;
+    width: 650px;
+    height: 750px;
+   transform: rotate(-4deg);
+   margin-left: 80px;
+   margin-top: -13%;
+}
+.book-images{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    
+}
+.section-image-three{
+    width: 260px;
+    filter: brightness(20%)opacity(80);
+    
+}
+hr{
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+}
+.one-line{
+    width: 1440px;
+    text-align: center;
+}
+.one-line p{
+       padding: 75px;
+    }
+    .flex-side{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        gap: 0;
+    }
+    .risk{
+        background-color: white;
+        border: 2px solid black;
+        font-size: medium;
+        padding: 8px;
+        margin-bottom: 40px;
+    }
+    .crownfunding-site p{
+        width: 450px;
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: larger;
+    }
+    .crownfunding-site{
+        width: 720px;
+        text-align: center;
+        background-color: #FFF804;
+        padding: 140px;
+        border: 1px solid black;
+        align-items: center;
+        
+    }
+    .press-sell{
+        width: 720px;
+        text-align: center;
+        background-color: #81836C;
+        padding: 140px;
+        border: 1px solid black;
+    }
+    .crownfunding-site h1,.press-sell h1{
+        font-size: 45px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .crownfunding-image{
+        width: 430px ;
+        display: block;
+        height: 390px;
+        margin-bottom: 90px;
+        
+    }
+    .crownfunding-anchor{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        border: 10px solid black;
+        border-radius: 30px;
+        font-size: medium;
+        padding: 3px 45px;
+    }
+    .get-into{
+        background-color: white;
+        border: 2px solid black;
+        font-size: medium;
+        padding: 8px;   
+
+    }
+    .press-sell p{
+        width: 423px;
+        text-align: center;
+        margin-left: 30px;
+        font-size: larger;
+        margin-bottom: 40px;
+    }
+    .press-image{
+        width: 430px ;
+        display: block;
+        height: 390px;
+        margin-bottom: 117px; 
+       
+    }
+    .press-anchor{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        border: 10px solid black;
+        border-radius: 30px;
+        font-size: medium;
+        padding: 3px 45px; 
+    }
+    .press-only{
+        max-width: 1440px;
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        background-color: black;
+        color: white;
+       border: 10px solid black;
+        align-items: center;
+        
+    }
+    
+    .press-only p{
+        margin-top: 50px;
+        width: 790px;
+       font-size: large;
+       padding: 40px;
+       margin-left: 50px;
+       margin-bottom: 50px;
+    }
+    .press-only a{
+        color: white;
+    }
+.select-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 150px;
+}
+.we-do-the-rest{
+    margin-left: 10%;
+    display: block;
+    margin-top: 40px;
+    
+}
+.we-do-the-rest strong{
+    text-align: center;
+    width: 120px;
+    padding: 6px;
+    font-size: medium;
+   /* margin: 90px; */
+
+   margin-left: 130px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    border: 2px solid black;
+    display: block;
+}
+.we-do-the-rest span{
+    display: block;
+    font-size: 40px;
+    font-weight: bold ;
+    margin-left: 30px;
+    
+}
+.select-image-one{
+    width: 370px;
+    height: 499px;
+    margin-top: 40px;
+    transform: rotate(-6deg);
+    border: 2px solid black;
+    margin-left: 40px;
+}
+.we-do-the-rest p{
+    width: 550px;
+    margin-top: 30px;
+    font-size: large;  
+    margin-bottom: 45px;
+}
+.we-do-the-rest a{
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    font-size: small;
+    border: 3px solid black;
+    padding: 10px 49px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 155px;
+    
+}
+.select-card-container{
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-bottom: 70px;
+   
+}
+.select-card-container h2{
+    border: 1px solid black;
+    width: 430px;
+    background-color: black;
+    color: #ffffff;
+    padding: 18px;
+    padding-bottom: 60px;
+    font-size:25px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+    select{
+        border: 1px solid black;
+        width: 430px;
+        display: block;
+        padding: 20px;
+        font-weight: bold;
+        font-size: large;
+    }
+ .worldwide-flex{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+ }   
+ .customer-image{
+    width: 600px  ;
+    height: 400px;
+    display: block;
+margin-top: 4%;
+margin-left: 8%;
+    margin-bottom: 76px;
+    
+ }
+ .retail-image{
+    width: 550px  ;
+    height: 450px;
+    display: block;
+    margin-left: 9%;
+    margin-bottom: 61px;
+ }
+ .customer-support strong{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px;
+    font-size: medium;
+    text-align: center;
+    margin-left: 37%;
+   
+ }
+
+ .customer-support h2{
+    width: 540px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+.customer-support{
+    background-color: #E280FF;
+    padding: 20px;
+}
+ .customer-support p{
+    font-size: large;
+    width: 700px;
+   text-align: center;
+   padding: 90px;
+   padding-top: 0%;
+    line-height: 1.5;
+ }
+ .retail-customer{
+    width: 730px;
+    background-color: #FFF804;
+   align-items: center;
+ }
+ .retail-customer strong{
+    color: black;
+   background-color: white;
+   border: 2px solid black;
+   padding: 8px;
+   font-size: medium;
+   text-align: center;
+    margin-left: 37%;
+    
+}
+ .retail-customer h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .retail-customer p{
+    font-size: large;
+     width: 700px;
+    text-align: center;
+    padding: 90px;
+    padding-top: 0%;
+ }
+ .join-growing-community{
+max-width: 1440px;
+margin: 0 auto;
+
+text-align: center;
+padding: 90px;
+ }
+ .community{
+   color: black;
+   background-color: white;
+   border: 2px solid black;
+   padding: 8px;
+   text-align: center;
+}
+.join-growing-community h1{
+    font-size: 54px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.join-growing-community p{
+    width: 480px;
+    margin-left: 32%;
+    font-size: large;
+    margin-bottom: 60px;
+}
+.join-growing-community a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 14px 45px; 
+}
+.grid-pictures{
+    border: 2px solid black;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    column-gap: 0;
+    row-gap: 0;
+}
+.grid-two,.grid-three,.grid-four,.grid-five,.grid-one{
+    width: 360px;
+   border: 2px solid black;
+   height: 350px;
+   
+}
+.grid-one{
+    width: 720px;
+height: 700px;
+    grid-column: span 2;
+    grid-row: span 2;margin-left: 0%;
+}
+.anchor-tags-section{
+    max-width: 1440px;
+    margin: 0  auto ;
+    padding: 0;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.anchor-tags-section a{
+    text-decoration: none;
+    margin-left: 65px;
+    color: black;
+    font-weight: 546;
+    font-size: large;
+    /* margin-right: 20px; */
+}
+.sql-flex{
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    background-color: #FFF804;
+    height: 1000px;
+    gap: 130px;
+}
+.artist-para{
+    display: block;
+    width: 650px;
+    padding: 50px;
+}
+.sql-flex-span{
+    background-color: #ffffff;
+    border: 3px solid black;
+    padding: 9px 10px;
+    font-size: medium;
+}
+.sql-flex h3{
+    width: 485px;
+    font-size: x-large;
+    line-height: 1.4;
+    margin-top: 330px;
+}
+.sql-flex div{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 300px;
+}
+.radius-one{
+    width: 90px;
+    height:70px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-right: 10px;
+}
+.radius-two{
+background-color: #FFF804;
+width: 90px;
+height:70px;
+border-radius: 50%;
+border: 3px solid black;
+padding: 15px;
+
+margin-right: 20px;
+}
+.sql-flex img{
+    width: 660px;
+    height: 1000px;
+}
+.para-picture{
+   border: 4px solid black;
+    width: 100%;
+    height: auto;
+}
+.last-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.section-last{
+    position: relative;
+    padding: 109px;
+}
+.last-section span{
+    border: 2px solid white;
+    padding: 9px 15px;
+    font-size: small;
+    
+}
+.last-section h1{
+    text-align: center;
+    width: 49%;
+    margin-left: 25%;
+    font-size: 59px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.last-section p{
+width: 66%;
+line-height: 1.5;
+margin-left: 18%;
+font-size: large;
+margin-bottom: 60px;
+top: 0;
+}
+.last-jokar-image{
+    width: 650px;
+}
+/* .section-last img{
+    width: 250px;
+} */
+.last-section a{
+    background-color: #FFF804;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 22px 8%;
+    border-radius: 35px;
+    font-size: large;
+}
+.first-project-footer{
+    background-color: black;
+    color: #ffffff;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    padding-top: 190px;
+    padding-bottom: 150px;
+}
+
+.for-artist a ,.for-fans a,.our-company a,.help{
+    margin-left: 130px;
+}
+
+.first-project-footer b{
+font-size: large;
+}
+.for-fans b{
+margin-left: 128px;
+}
+.our-company b{
+    margin-left: 129px;  
+}
+
+.for-artist b{
+    margin-left: 128px;
+}
+.first-project-footer ul{
+    list-style: none;
+}
+.first-project-footer a{
+    text-decoration: none;
+    line-height: 1.9;
+    color: #ffffff;
+}
+.last-footer{
+    background-color: black;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 14%;
+    padding-bottom: 100px;
+}
+
+.last-footer-image{
+    background-color: black;
+    margin-left: 150px;
+    width: 330px;
+}
+.anchor{
+    margin-right: 50px;
+}
+ .anchor p{
+    color: #ffffff;
+    margin-left: 448px;
+    margin-top: -20px;
+}
+.anchor a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 15px;
+    
+}
+.last-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+margin-left: 59px;
+gap: 20px
+;
+}
+.last-text i{
+    color: black;
+     font-size: 20px;
+ border-radius: 50%;
+ padding: 9px;
+ background-color: #ffffff;
+margin-left: 5px;
+    }
+    .icon{
+        margin-left: 389px;
+    }
+    .dollar-pic{
+        width: 150px;
+        position: absolute;
+        margin-left: 54%;
+        top: 0;
+       margin-top: 30%;
+    }
+
+@media(max-width:1024px){
+   
+    .header-area{
+        width: 100%;
+    }
+    .discover,.search,.qrates,.cart{
+        margin-left: 25px;
+    }
+    .your-music-on{
+        max-width: 1024px;
+        margin-top: 160px;
+        gap: 15%;
+   }
+    .your-music-text{
+           margin-left: 50px;
+    }
+    .section-image-one{
+        width: 650px;
+        height: 850px;
+    }
+    .section-image-two{
+        width: 670px;
+        height: 760px;
+        margin-top: -9%;
+        transform: rotate(-4deg);
+    }
+    .section-image-three{
+        width: 200px;
+    }
+    
+    hr{
+        width: 145%;
+    }
+    .flex-side{
+        width: 1240px;
+    }
+    .crownfunding-site{
+        width: 725px;
+    }
+    .press-sell{
+        width: 715px;
+    }
+    .press-only{
+        width: 174%;
+    }
+    .flex-side,.press-only{
+        margin-left: 25px;
+    }
+    .worldwide-flex{
+        margin-left: 25px;
+    }
+   .community{
+    margin-left: 50%;
+   }
+   .join-growing-community h1{
+    margin-left: 42%;
+    font-size: 45px;
+    width: 590px;
+   }
+   .join-growing-community p{
+   margin-left: 50%;
+   }
+   .join-growing-community a{
+    margin-left: 50%;
+   }
+   .grid-pictures{
+    margin-left: 20px;
+   }
+   .anchor-tags-section{
+    width: 140%;
+   }
+   .sql-flex{
+    margin-left: 20px;
+    width: 1240px;
+gap: 11%;
+   }
+   .para-picture{
+    width:723px;
+   }
+   .last-section{
+    width: 150%;
+    margin-left: 23px;
+   }
+  .first-project-footer{
+    width: 200%;
+    margin-left: 23px;
+      }
+  .last-footer{
+    width: 200%;
+    margin-left: 23px;
+  }
+  
+}
+@media(max-width:768px){
+    body{
+        background-color: white;
+    }
+    .header-area{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .discover,.search,.qrates,.cart{
+        margin-left: 28px;
+    }
+    
+    .logo-image{
+        width: 39px;
+        height: 39px;
+        margin-left: 35px;
+    }
+    .make-record{
+       border: 5px solid black;
+        border-radius: 12px;
+         padding: 2px 15px; 
+        font-size: small;
+    }
+    .head-button{
+        margin-right: 20px;
+    }
+    .make-record{
+        border: 5px solid black;
+        border-radius: 10px;
+         padding: 2px 15px; 
+        font-size: small;
+    }
+    .login{
+         font-weight: 300;
+        margin-right: 10px;
+    }
+.your-music-on{
+    gap: 60%;
+    margin-top: 3%;
+}    
+.your-music-text{
+    margin-top: 70px;
+    margin-left: 40px;
+    width:250px;
+}
+/* .one-line p{
+    margin-left: 265px;
+} */
+.qrates{
+    padding: 2px;
+}
+.span-changing{
+    width: 280px;
+    font-size: large;
+}
+.span{
+    width: 450px;
+    font-size: 58px;   
+}
+.your-music-on p{
+    width: 480px;
+    font-size: 30px;
+}
+.section-image-one{
+    width: 550px;
+    height: 680px;
+    margin-top: 40px;
+   
+   
+}
+.section-image-two{
+   width: 700px;
+    height: 590px;
+    margin-left: 230px;
+    transform: rotate(-5deg);
+   margin-top: -15%;
+}
+.section-image-three{
+    width: 200px; 
+}
+.book-images{
+    max-width: 900px;
+    gap: 110px;
+}
+hr{
+    width: 188%;
+}
+.flex-side{
+   margin-left: -2px;
+}
+.press-only{
+   margin-left: -2px;
+    width: 200%;
+}
+.select-section{
+    gap: 175px;
+}
+.we-do-the-rest{
+    margin-left: 120px;
+}
+.worldwide-flex{
+    margin-left: 0px;
+}
+.retail-image{
+    margin-bottom: 70px;
+}
+.join-growing-community{
+    width: 768px;
+    margin-left: 190px;
+}
+.community{
+    margin-left: 45%;
+}
+.join-growing-community h1 {
+    margin-left: 23%;
+}
+.join-growing-community p{
+    margin-left: 32%;
+    line-height: 1.5;
+}
+.join-growing-community a{
+   
+    width: 400px;
+    margin-right: auto;
+   text-align: center;
+}
+.grid-pictures{
+    margin-left: 0;
+}
+.anchor-tags-section{
+    width: 200%;
+}
+.sql-flex{
+    margin-left: 2px;
+}
+.sql-flex img{
+    width: 716px;
+}
+/* .para-picture{
+    width: 816px;
+} */
+.last-section{
+    margin-left: 0;
+    width: 200%;
+}
+.first-project-footer{
+    margin-left: 0;
+}
+.last-footer{
+    margin-left: 0;
+}
+.for-artist{
+    margin-left: 50px;
+}
+.for-fans{
+    margin-left: 25px;
+}
+.our-company{
+    margin-left: 40px;
+}
+.help{
+    margin-left: 50px;
+}
+.last-footer-image{
+    margin-left: 40px;
+    width: 250px;
+}
+}
+@media(max-width:426px){
+    .your-music-on{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  .why-qrates{
+text-align: center;
+    margin-left: 59px;
+    padding: 20px;
+   font-size: large;
+    border: 4px solid black;
+    
+  }
+ .span-changing{
+    margin-left: -37px;
+    font-size: 90px;
+    text-align: center;
+    width: 680px;
+  }
+  .your-music-text span{
+    width: 1250px;
+    font-size: 130px;
+    margin-left: 15px;
+    text-align: center;
+  }
+  .your-music-text p{
+    text-align: center;
+    font-size: 73px;
+    line-height: 1.5;
+    width: 1150px;
+    margin-left: 100px;
+  }
+  .section-image-one{
+    margin-left: 490px;
+    width: 650px;
+    height: 869px;
+  }
+  .book-images{
+    flex-direction: column;
+  }  
+  .section-image-two{
+    margin-left: 140px;
+    width: 600px;
+    height: 790px;
+    margin-top: -54%;
+  }
+  .section-image-three{
+    margin-left: 470px;
+    width: 290px;
+  }
+  hr{
+    width: 332%;
+  }
+  .one-line{
+    width: 425px;
+  }
+  .flex-side{
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .one-line p{
+    text-align: center;
+    font-size: large;
+    width: 666px;
+    margin-left: 377px;
+  }
+  .crownfunding-site{
+    width: 1376px;
+    }
+    .risk{
+        padding: 25px;
+        font-size: x-large;
+    }
+    .crownfunding-site h1{
+        font-size: 100px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .crownfunding-site p{
+        width: 892px;
+        margin-left: 112px;
+        font-size: xx-large
+    }
+    .crownfunding-image{
+        margin-left: 186px;
+        margin-bottom: 118px;
+        width: 750px;
+        height: 750px;
+    }
+    .crownfunding-site a{
+        padding: 19px 111px;
+        border-radius: 175px;
+        font-size: xx-large;
+    }
+  .press-sell{
+    width: 1376px;
+  }
+  .press-sell strong{
+    padding: 25px;
+        font-size: x-large;
+  }
+  .press-sell h1{
+    font-size: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+  }
+  .press-sell p{
+    width: 892px;
+    margin-left: 112px;
+    font-size: xx-large;
+   
+  }
+  .press-image{
+    margin-left: 186px;
+    margin-bottom: 118px;
+    width: 750px;
+    height: 750px;
+    
+  }
+  .press-sell a{
+    padding: 19px 111px;
+    border-radius: 175px;
+    font-size: xx-large;
+    margin-left: 22px;
+  }
+  .press-only{
+    width: 325%;
+    margin-left: 20px;
+  }
+  .select-section{
+    flex-direction: column;
+  }
+  .we-do-the-rest strong{
+    padding: 20px;
+    width: 240px;
+    margin-left: 420px;
+    font-size: x-large;
+  }
+  .we-do-the-rest span{
+    margin-left: 198px;
+    font-size: 81px;
+    width: 720px;
+  }
+ .select-image-one{
+    width: 670px;
+    margin-left: 213px;
+    height: 890px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+ }
+ .we-do-the-rest p{
+    font-size: xx-large;
+    width: 990px;
+    margin-left: 86px;
+ }
+ .we-do-the-rest a{
+    margin-left: 360px;
+    font-size: x-large;
+    padding: 18px 90px;
+    border-radius: 35px;
+ }
+ .select-card-container{
+    margin-left: 380px;
+ }
+ .select-card-container h2{
+    width: 690px;
+    font-size: xx-large;
+ }
+ .select-card-container select{
+    width: 685px;
+    font-size: xx-large;
+ }
+ .worldwide-flex{
+    flex-direction: column;
+    margin-left: 20px;
+ }
+ .retail-customer{
+    width: 1376px;
+ }
+ .retail-image{
+    margin-left: 308px;
+    width: 750px;
+    height: 750px;
+ }
+ .retail-customer strong{
+    padding: 20px 65px;
+ }
+ .retail-customer h2{
+    font-size: 100px
+ }
+ .retail-customer p{
+    font-size: xx-large;
+    width: 1061px;
+ }
+ .customer-support{
+    width: 1376px;
+ }
+ .customer-image{
+    margin-left: 108px;
+    width: 1138px;
+    height: 850px;
+ }
+ .customer-support h2{
+    font-size: 100px;
+    width: 1060px;
+ }
+ .customer-support P{
+    font-size: xx-large;
+    width: 1061px;
+ }
+ .customer-support strong{
+    padding: 20px 32px;
+    font-size: xx-large;
+    margin-left: 447px;
+ }
+ .join-growing-community strong{
+    padding: 20px 50px;
+    font-size: x-large;
+ }
+ .join-growing-community h1{
+    font-size: 78px;
+    margin-left: -74px;
+    width: 1041px;
+ }
+ .join-growing-community p{
+    margin-left: -1%;
+    width: 900px;
+    font-size: x-large;
+ }
+ .grid-pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    margin-left: 10px;
+ }
+ .grid-one{
+    width: 1394px;
+    height: 698px;
+ }
+ .grid-two,.grid-three,.grid-four,.grid-five{
+    width: 697px;
+    height: 600px;
+ }
+ .anchor-tags-section{
+    width: 318%;
+ }
+ .sql-flex{
+    flex-direction: column;
+    width: 1421px;
+    margin-left: 0;
+    gap: 0;
+    height: 2294px;
+    
+ }
+ .artist-para{
+    order: 1;
+    background-color: #FFF804;
+    width: 1418px;
+    margin-top: -249px;
+ }
+ .picture-para{
+   margin-bottom: 0;
+ }
+ .sql-flex img{
+    width: 1420px;
+    height: 1040px;
+ }
+ .sql-flex-span{
+    padding: 20px 70px;
+    font-size: xx-large;
+    margin-left: 230px;
+ }
+ .artist-para h3{
+   width: 838px;
+   font-size: 51px;
+   margin-top: 227px;
+ }
+ .artist-para div{
+    font-size: xx-large;
+    margin-left: 233px;
+    margin-top: 40px;
+ }
+ .radius-one{
+    margin-left: 230px;
+ }
+ .last-section{
+    width: 334%;
+ }
+ .last-section span{
+padding: 20px 65px;
+font-size: x-large;
+ }
+ .last-section h1{
+    font-size: 109px;
+    width: 1177px;
+    margin-left: 39px;
+ }
+ .last-section p{
+    font-size: xx-large;
+    width: 1183px;
+    margin-left: 39px;
+ }
+ .last-jokar-image{
+    width: 921px;
+ }
+ .dollar-pic{
+    width: 174px;
+    margin-top: 52%;
+    margin-left: 69%;
+ }
+ .last-section a{
+    padding: 38px 24%;
+    border-radius: 135px;
+    font-size: xxx-large;
+    margin-left: 25px;
+ }
+ .first-project-footer{
+    width: 334%;
+   flex-direction: column;
+   
+}
+.for-artist{
+     margin-bottom: 200px;
+     margin-left: 118px;
+}
+.for-artist b{
+    font-size: xxx-large;
+}
+.for-artist ul li {
+    font-size: xx-large;
+}
+.for-fans{
+    margin-bottom: 200px;
+    margin-left: 783px;
+    margin-top: -492px;
+}
+.for-fans b{
+    font-size: xxx-large;
+}
+.for-fans ul li {
+    font-size: xx-large;
+}
+.our-company{
+    margin-bottom: 200px;
+    margin-left: 118px;
+}
+.our-company b{
+    font-size: xxx-large;
+}
+.our-company ul li {
+    font-size: xx-large;
+}
+.help{
+    margin-bottom: 200px;
+    margin-left: 917px;
+    margin-top: -437px;
+}
+.help b{
+    font-size: xxx-large;
+}
+.help ul li {
+    font-size: xx-large;
+}
+.last-footer{
+    width: 334%;
+}
+
+     .last-footer{
+        flex-direction: column;
+        margin-top: -200px;
+     }
+     .footer-image-last{
+width: 700px;
+height: 500px;
+     }
+     .last-footer-image{
+        width: 100%;
+        height: 100%;
+     }
+     .last-text i{
+        width: 94px;
+        
+        padding: 21px;
+        margin-left: 40px;
+        font-size: 50px;
+     }
+     .icon{
+        margin-left: 485px;
+        margin-bottom: 40px;
+     }
+     .anchor{
+        width: 100%;
+        margin-left: 18px;
+        font-size: xxx-large;
+     }
+     .anchor p{
+        margin-top: 40px;
+        margin-left: 527px;
+     }
+     .anchor a{
+        margin-left: 62px;
+     }
+}
+@media(max-width:376px){
+    .why-qrates{
+        margin-left: 10px;
+        padding: 15px;
+        font-size: x-large;
+        
+    }
+    .your-music-text span{
+        margin-left: 50px;
+        }
+        .span-changing{
+            margin-left: 50px;
+        }
+        .section-image-one{
+            margin-left: 480px;
+            width: 700px;
+            height: 920px;
+        }
+        .your-music-text p{
+            margin-left: 102px;
+            text-align: center;
+        }
+      .section-image-two{
+        margin-left: 150px;
+        width: 630px;
+        height: 820px;
+      }
+      .section-image-three{
+        margin-left: 550px;
+      }
+      hr{
+        width: 378%;
+      }
+      .one-line p{
+        margin-left: 190px;
+        width: 1056px;
+        font-size: x-large;
+      }
+      .crownfunding-site{
+        width: 1383px;
+      }
+      .press-sell{
+        width: 1386px;
+      }
+      .press-only{
+        width: 370%;
+      }
+      .press-only p{
+       font-size: x-large;
+       margin-left: -23px;
+       width: 892px;
+      }
+      .press-only a{
+        font-size: x-large
+      }
+      .we-do-the-rest{
+       margin-left: 195px;
+      }
+      .select-card-container{
+       margin-left: 408px;
+      }
+      .retail-customer{
+        width: 1388px;
+      }
+      .customer-support{
+        width: 1388px;
+      }
+      .join-growing-community{
+        margin-left: 205px;
+      }
+      .grid-one{
+        width: 1401px;
+      }
+      .grid-two,.grid-three,.grid-four,.grid-five{
+        width: 701px;
+      }
+      .anchor-tags-section{
+        font-size: x-large;
+        width: 372%;
+      }
+      .sql-flex{
+        width: 1414px;
+      }
+      .last-section{
+        width: 378%;
+      }
+      .first-project-footer{
+        width: 378%;
+      }
+      .last-footer{
+        width: 378%;
+      }
+}
+@media(max-width:320px){
+    .your-music-text span{
+        margin-left: 6px;
+    }
+    .span-changing{
+        margin-left: 6px;
+    }
+    .your-music-text p{
+        margin-left: 33px;
+    }
+    .why-qrates{
+        padding: 24px;
+    }
+.section-image-one{
+    margin-left: 417px;
+    width: 680px;
+}
+.section-image-two{
+    margin-left: 94px;
+    width: 655px;
+}
+.section-image-three{
+    margin-left: 150%;
+}
+.your-music-text{
+    margin-left: -3px;
+}
+.your-music-text p{
+    margin-left: 63px;
+}
+hr{
+    width: 399%;
+}
+.one-line p{
+    margin-left: 138px;
+    font-size: xx-large;
+}
+.flex-side{
+    margin-left: 15px;
+}
+.crownfunding-site{
+    width: 1252px;
+}
+.press-sell{
+    width: 1352px;
+}
+.crownfunding-site p{
+margin-left: 58px;
+}
+.crownfunding-image{
+    margin-left: 100px;
+    width: 814px;
+}
+.press-sell{
+    width: 1254px;
+}
+.press-sell p{
+    margin-left: 45px;
+}
+.press-image{
+    margin-left: 106px;
+}
+.press-only{
+    margin-left: 14px;
+    width: 392%;
+}
+.we-do-the-rest{
+    margin-left: 75px;
+}
+.select-card-container{
+    margin-left: 205px;
+}
+.select-card-container h2{
+    width: 882px;
+    font-size: xxx-large;
+}
+.select-card-container select{
+    width: 886px;
+    font-size: xxx-large;
+}
+.worldwide-flex{
+    margin-left: 10px;
+}
+.retail-customer{
+    width: 1261px;
+}
+.customer-support{
+    width: 1261px;
+}
+.retail-image{
+    margin-left: 198px;
+    width: 861px;
+}
+.customer-image{
+    width: 1036px;
+    margin-left: 8%;
+}
+.join-growing-community strong{
+    font-size: xxx-large;
+    padding: 28px 134px;
+}
+.join-growing-community{
+    margin-left: -18px;
+}
+.join-growing-community h1{
+    font-size: 93px;
+    margin-left: -30px;
+    width: 1190px;
+}
+.join-growing-community p{
+    font-size: xx-large;
+    width: 1138px;
+}
+.join-growing-community a{
+    margin-left: 29%;
+    padding: 27px 121px;
+    margin-right: -324px;
+    border-radius: 133px;
+    font-size: xx-large;
+}
+.grid-pictures{
+    margin-left: 6px;
+}
+.grid-one{
+    width: 1259px;
+}
+.grid-two,.grid-three,.grid-four,.grid-five{
+    width: 631px;
+}
+.anchor-tags-section{
+    width: 383%;
+}
+.anchor-tags-section a{
+    margin-left: 40px;
+}
+.sql-flex{
+    width: 1278px;
+}
+.artist-para{
+    width: 1280px;
+ }
+ /* .para-picture{
+    width: 1280px;
+}  */
+ .sql-flex img{
+width: 1280px;
+ }
+.last-section{
+    width: 400%;
+}
+.section-last h1{
+    margin-left: -40px;
+}
+.section-last p{
+    margin-left: -50px;
+}
+.dollar-pic{
+    width: 153px;
+   margin-left: 74%;
+}
+.last-jokar-image{
+    width: 959px;
+}
+.last-section a{
+    margin-left: -45px;
+}
+.first-project-footer{
+    width: 400%;
+}
+.last-text{
+    margin-left: 0%;
+}
+.last-footer{
+    width: 400%;
+}
+.footer-image-last{
+    margin-left: 317px;
+    margin-top: 85px;
+    width: 573px;
+}
+.icon{
+    margin-left: 451px;
+}
+.anchor{
+    font-size: 46px
+}
+.anchor a{
+    margin-left: 46px;
+}
+.anchor p{
+    margin-left: 485px;
+} 
+}
